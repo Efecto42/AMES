@@ -1,4 +1,5 @@
 import Image from "next/image";
+import "./campana.css";
 
 const PHONE="529981117084";
 const wa=(message="Hola Ángela, vi la liquidación y quiero conocer las prendas disponibles.")=>`https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`;
